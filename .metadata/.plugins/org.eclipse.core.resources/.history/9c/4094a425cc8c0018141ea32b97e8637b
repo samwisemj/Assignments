@@ -1,0 +1,23 @@
+/**
+ * A person class with some basic implementation about props of a person
+ */
+
+/**
+ * @author subhamsa
+ *
+ */
+public class Person extends Date{
+
+		private String name;
+		private Date dob;
+//		public Person(String name,int d,int m,int y)
+//		{
+//			this.name=name;
+//			super(d,m,y);
+//		}
+		public Person(int d, int m, int y, String name, Date dob) {
+			super(d, m, y);
+			this.name = name;
+			this.dob = dob;
+		}
+}

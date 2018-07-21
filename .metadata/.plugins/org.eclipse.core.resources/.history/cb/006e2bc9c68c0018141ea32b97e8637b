@@ -1,0 +1,15 @@
+
+public class DateTest {
+
+	public static void main(String[] args) {
+		Date newDate=new Date(7,7,1995);
+		Date anotherNewDate=new Date(7,7,2018);
+		int ar[]=newDate.diff(anotherNewDate);
+		System.out.println("Date 1:-"+newDate);
+		System.out.println("Date 2:-"+anotherNewDate);
+		System.out.println("Days difference is "+ar[0]+"\nMonths difference is "+ar[1]+"\nYears difference is "+ar[2]);
+		
+
+	}
+
+}

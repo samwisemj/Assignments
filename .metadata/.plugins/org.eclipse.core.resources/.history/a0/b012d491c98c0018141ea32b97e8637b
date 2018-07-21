@@ -1,0 +1,17 @@
+/**
+ * A person class with some basic implementation about props of a person
+ */
+
+/**
+ * @author subhamsa
+ *
+ */
+public class Person extends Date{
+
+		private String name;
+		private Date dob;
+		public Person(String name,int d,int m,int y)
+		{
+			
+		}
+}

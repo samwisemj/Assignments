@@ -1,0 +1,10 @@
+import java.io.*;
+public class TriangleTest {
+	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	public static void main(String[] args) {
+		
+		Triangle ar[]=new Triangle[n];
+
+	}
+
+}

@@ -1,0 +1,25 @@
+
+public class Television {
+	private boolean state;
+	private int volume;
+	private int channel;
+	public boolean isState() {
+		return state;
+	}
+	public void setState(boolean state) {
+		this.state = state;
+	}
+	public int getVolume() {
+		return volume;
+	}
+	public void setVolume() {
+		this.volume++;
+	}
+	public int getChannel() {
+		return channel;
+	}
+	public void setChannel(int channel) {
+		this.channel = channel;
+	}
+	
+}

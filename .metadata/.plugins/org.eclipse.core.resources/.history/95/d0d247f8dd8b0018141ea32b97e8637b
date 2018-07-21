@@ -1,0 +1,18 @@
+import java.io.*;
+public class Test {
+
+	static BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+	public static void main(String[] args) {
+		Rectangle r1=new Rectangle();
+		Rectangle r2=new Rectangle();
+		System.out.println("Enter the length and breadth of the first rectangle");
+		r1.setLength(Double.parseDouble(br.readLine()));
+		r1.setBreadth(Double.parseDouble(br.readLine()));
+		
+		
+		
+		
+
+	}
+
+}

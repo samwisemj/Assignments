@@ -1,0 +1,14 @@
+import 
+/**
+ * A person class with some basic implementation about props of a person
+ */
+
+/**
+ * @author subhamsa
+ *
+ */
+public class Person extends {
+
+		private String NAME;
+		private Date dob;
+}

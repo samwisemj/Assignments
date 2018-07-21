@@ -1,0 +1,21 @@
+import java.io.*;
+class Rectangle
+{
+	private double length;
+	private double breadth;
+	private double area;
+	private double perimeter;
+	Rectangle()
+	{
+		length=0;
+		breadth=0;
+		area=0;
+		perimeter=0;
+	}
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

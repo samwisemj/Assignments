@@ -1,0 +1,33 @@
+/**
+ * A person class with some basic implementation about props of a person
+ */
+
+/**
+ * @author subhamsa
+ *
+ */
+public class Person {
+
+		private String name;
+		private Date dob;
+//		
+		public Person(int d, int m, int y, String name) {
+			dob=new Date(d, m, y);
+			this.name = name;
+		}
+		public void display()
+		{
+			System.out.println("Name "+name);
+			//converting into dd mm yyyy
+			String day,month,year;
+			day=(dob.getD()<10)?"0"+dob.getD():dob.getD();
+			month=(month<10)?"0"+dob.getM():dob.getM();
+			year=dob.getY();
+			
+			//printing using this format
+			System.out.println("DOB- "+day+"/"+month+"/"+year);
+			
+			
+		}
+	
+}

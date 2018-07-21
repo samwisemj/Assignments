@@ -1,0 +1,20 @@
+/**
+ * country class with a few country properties
+ */
+
+/**
+ * @author subhamsa
+ *
+ */
+public class Country {
+
+	private int area;
+	private long population;
+	private double density;
+	public Country(int area, long population) {
+		this.area = area;
+		this.population = population;
+		this.density = population/area;
+		
+	}	
+}

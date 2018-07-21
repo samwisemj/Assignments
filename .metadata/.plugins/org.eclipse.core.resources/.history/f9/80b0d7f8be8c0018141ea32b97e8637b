@@ -1,0 +1,37 @@
+
+public class Date {
+	private int d;
+	private int m;
+	private int y;
+
+	public Date(int d, int y, int m) {
+
+		this.d = d;
+		this.y = y;
+		this.m = m;
+	}
+
+	@Override
+	public String toString() {
+		return "Date is " + d + "/" + m + "/" + y + "";
+	}
+
+	// checks instance is greater than the argument variable ie argument date is
+	// smaller than instance date or not
+	public boolean isSmaller(Date date) {
+		return ((this.y > date.y) ? true
+				: (this.y == date.y && this.m > date.m) ? true
+						: (this.y == date.y && this.m == date.m && this.d > date.d) ? true : false);
+	}
+
+	// finds out the difference in dates
+	public int[] diff(Date date) {
+		int diffAr[] = new int[3];
+
+		diffAr[0] = (int) Math.abs(this.d - date.d);
+		diffAr[1] = (int) Math.abs(this.m - date.m);
+		diffAr[2] = (int) Math.abs(this.y - date.y);
+
+		return diffAr;
+	}
+}

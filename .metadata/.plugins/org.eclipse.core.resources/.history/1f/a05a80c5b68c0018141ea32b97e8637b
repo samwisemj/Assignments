@@ -1,0 +1,26 @@
+
+public class Date {
+	private int d;
+	private int m;
+	private int y;
+	
+	
+	public Date(int d, int y, int m) {
+		
+		this.d = d;
+		this.y = y;
+		this.m = m;
+	}
+
+	@Override
+	public String toString() {
+		return "Date is " + d + "/" + m + "/" + y + "";
+	}
+	
+	//checks instance is greater than the argument variable ie argument date is smaller than instance date or not
+	public boolean isSmaller(Date date)
+	{
+		return ((this.y>date.y)?true:(this.y==date.y && this.m>date.m)?true:(this.y==date.y && this.m==date.m && this.d>date.d)?true:false);
+	}
+
+}

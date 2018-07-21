@@ -1,0 +1,34 @@
+
+public class SavingsAccount {
+
+	private static int uniqueAccountNumber=456789;//initializer..
+	private int accountNumber;
+	private String name;
+	private double accountBalance;
+	
+	
+	//	For creating an account with zero balance
+	public SavingsAccount(int accountNumber, String name) {
+		this(accountNumber,name,0.0);
+	}
+
+	//creating an account with some deposit
+	public SavingsAccount(int accountNumber, String name, double accountBalance) {
+	
+		this.accountNumber = accountNumber;
+		this.name = name;
+		this.accountBalance = accountBalance;
+	}
+	
+	private boolean withdraw(double amount)
+	{
+		if(amount>accountBalance)
+			return false;
+		
+		accountBalance-=amount;
+		return true;
+	}
+	
+	
+	
+}

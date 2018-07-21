@@ -1,0 +1,22 @@
+public class Complex
+{
+	private float real;
+	private float imaginary;
+	public void set(float real,float imaginary)
+	{
+		this.imaginary=imaginary;
+		this.real=real;
+	}
+	public void display()
+	{
+		System.out.println(real+" + "+imaginary+"i");
+	}
+	public Complex sum(Complex n)
+	{
+		Complex complexNumberSum = new Complex();
+		
+		complexNumberSum.real=real+n.real;
+		complexNumberSum.imaginary=imaginary+n.imaginary;
+		return complexNumberSum;		
+	}
+}

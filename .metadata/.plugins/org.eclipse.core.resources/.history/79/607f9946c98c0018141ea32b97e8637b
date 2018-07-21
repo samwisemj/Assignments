@@ -1,0 +1,17 @@
+/**
+ * A person class with some basic implementation about props of a person
+ */
+
+/**
+ * @author subhamsa
+ *
+ */
+public class Person{
+
+		private String NAME;
+		private Date dob;
+		public Person()
+		{
+			
+		}
+}

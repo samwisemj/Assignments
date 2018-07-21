@@ -1,0 +1,22 @@
+import java.io.*;
+public class Test {
+
+	static BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+	public static void main(String[] args)throws Exception {
+		Rectangle r1=new Rectangle();
+		Rectangle r2=new Rectangle();
+		System.out.println("Enter the length and breadth of the First rectangle");
+		r1.setLength(Double.parseDouble(br.readLine()));
+		r1.setBreadth(Double.parseDouble(br.readLine()));
+		
+		System.out.println("Enter the length and breadth of the Second rectangle");
+		r2.setLength(Double.parseDouble(br.readLine()));
+		r2.setBreadth(Double.parseDouble(br.readLine()));
+		
+		
+		
+		
+
+	}
+
+}
