@@ -1,3 +1,4 @@
+//concrete savings account implementation for mmbank
 public class MMSavingsAccount extends SavingsAccount{
 
 	public MMSavingsAccount(int accNo, String accName, float accBal, boolean isSalaried) {

@@ -27,7 +27,8 @@ public class Date {
 	}
 
 	// finds out the difference in dates and stores absolute values in as d,m,y in
-	// diffAr respectively
+	// diffAr respectively 
+	//non cumulative
 	
 	public int[] differenceFirstway(Date date) {
 		int diffAr[] = new int[3];
@@ -40,7 +41,7 @@ public class Date {
 
 		return diffAr;
 	}
-
+	//returns the total difference in days, months and  years(cumulative)
 	public int[] differenceSecondWay(Date date) {
 		int diffAr[] = new int[3];
 		LocalDate dateArg = LocalDate.of(date.y, date.m, date.d);

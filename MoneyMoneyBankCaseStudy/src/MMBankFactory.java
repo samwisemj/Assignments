@@ -1,3 +1,4 @@
+//a concrete class which extends o bank factory
 public class MMBankFactory extends BankFactory {
 
 	private static int uniqueCAcNo = 10000;
@@ -9,6 +10,7 @@ public class MMBankFactory extends BankFactory {
 		SavingsAccount sa=new MMSavingsAccount(uniqueSAcNo,accName,accBal,isSalaried); 
 		return sa;
 	}
+	
 	@Override
 	protected CurrentAccount getNewCurrentAccount(String accName, float accBal, float creditLimit) {
 		

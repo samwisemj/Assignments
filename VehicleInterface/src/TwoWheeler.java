@@ -1,4 +1,4 @@
-
+//A type of vehicle that implements Vehicle
 public class TwoWheeler implements Vehicle{
 
 	@Override

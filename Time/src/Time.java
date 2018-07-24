@@ -1,3 +1,4 @@
+//a Time class with time's properties
 public class Time {
 
 	private int hours;
@@ -11,7 +12,7 @@ public class Time {
 	{
 		System.out.println(hours+"h "+minutes+" mins");
 	}
-	public Time sum(Time n)
+	public Time sum(Time n)//adds instance Time and arg Time
 	{
 		Time timeNumberSum = new Time();
 		timeNumberSum.hours =hours+n.hours;

@@ -1,3 +1,4 @@
+//Testing the Time class
 import java.io.*;
 public class TimeTest {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

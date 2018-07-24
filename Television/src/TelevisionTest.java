@@ -1,8 +1,10 @@
+//Testing the Television class
 import java.io.*;
 
 public class TelevisionTest {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+	//a simple menu driven switch case method
 	public static void main(String[] args) throws Exception {
 
 		Television tv = new Television();

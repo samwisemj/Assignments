@@ -1,3 +1,4 @@
+//Tests the Triangle class 
 import java.io.*;
 public class TriangleTest {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

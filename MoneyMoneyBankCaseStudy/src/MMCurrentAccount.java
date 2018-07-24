@@ -1,4 +1,4 @@
-
+//concrete current account implementation for mmbank
 public class MMCurrentAccount extends CurrentAccount{
 
 	public MMCurrentAccount(int accNo, String accName, float accBal, float creditLimit) {

@@ -1,3 +1,4 @@
+//testing Rectangle class
 import java.io.*;
 public class Test {
 

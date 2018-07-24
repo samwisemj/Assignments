@@ -1,3 +1,4 @@
+//employee class
 public class Employee {
 
 	private int id;
@@ -31,17 +32,20 @@ public class Employee {
 	public void setPtax(float ptax) {
 		this.ptax = ptax;
 	}
-
+	
+	//calculates annual basic
 	double getAnnualBasic()
 	{
 		return monthlyBasic*12;
 	}
 	
+	//calculates gross sallary
 	double getMonthlyGrossSalary()
 	{
 		return monthlyBasic + 0.50*monthlyBasic + 1250.0 + 800.0;
 	}
 	
+	//calculates deductions monthly
 	double getMonthlyDeductions()
 	{
 		double esic=(monthlyBasic<= 5000.00)?(monthlyBasic*0.0475):0.0;

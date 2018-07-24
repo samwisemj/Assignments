@@ -1,3 +1,4 @@
+//abstrcat savings account class
 abstract class SavingsAccount extends BankAccount{
 
 	private boolean isSalaried;
@@ -6,10 +7,12 @@ abstract class SavingsAccount extends BankAccount{
 	public static float getMinbal() {
 		return MINBAL;
 	}
+	
 	public SavingsAccount(int accNo,String accName,float accBal,boolean isSalaried) {
 		super(accNo,accName,accBal);
 		this.isSalaried=isSalaried;
 	}
+	
 	@Override
 	public void withdraw(float amount) 	
 	{

@@ -1,4 +1,4 @@
-
+//tester function that test whether the object factory works correctly 
 public class Test {
 
 	public static void main(String[] args) {

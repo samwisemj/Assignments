@@ -42,6 +42,7 @@ public class Person {
 		System.out.println("Age is " + ageArray[0] + " days, " + ageArray[1] + " months and " + ageArray[2] + " years");
 	}
 	
+	//checks older one of the instantiating object and arg object
 	public void olderOne(Person p)
 	{
 		int ageDifference[]=dob.differenceSecondWay(p.dob);

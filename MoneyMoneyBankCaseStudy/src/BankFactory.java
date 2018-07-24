@@ -1,4 +1,4 @@
-
+//abstract class for bank factory
 public abstract class BankFactory {
 
 	protected abstract SavingsAccount getNewSavingsAccount(String acccName,float accBal,boolean isSalaried);

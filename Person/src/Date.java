@@ -1,3 +1,4 @@
+//imported this from previous project for reusability...may be wxported to jar file and used
 import java.time.LocalDate;
 import java.time.Period;
 
@@ -41,6 +42,7 @@ public class Date {
 		return diffAr;
 	}
 
+	//returns the total difference in days, months and  years(cumulative)
 	public int[] differenceSecondWay(Date date) {
 		int diffAr[] = new int[3];
 		LocalDate dateArg = LocalDate.of(date.y, date.m, date.d);

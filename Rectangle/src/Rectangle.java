@@ -1,3 +1,4 @@
+//a general rectangle class
 class Rectangle
 {
 	public double getLength() {
