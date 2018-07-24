@@ -1,7 +1,7 @@
 
 public abstract class BankFactory {
 
-	protected abstract SavingsAccount getNewSavingsAccount();
+	protected abstract SavingsAccount getNewSavingsAccount(String acccName,float accBal,boolean isSalaried);
 
-	protected abstract CurrentAccount getNewCurrentAccount();
+	protected abstract CurrentAccount getNewCurrentAccount(String accName, float accBal,float creditLimit );
 }

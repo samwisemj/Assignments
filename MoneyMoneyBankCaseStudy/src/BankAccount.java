@@ -26,6 +26,8 @@ public abstract class BankAccount {
 	
 	abstract protected void withdraw(float amount);
 
+	//generic getters and setters for required fields
+	
 	public String getAccName() {
 		return accName;
 	}

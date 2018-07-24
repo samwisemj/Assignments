@@ -1,53 +1,20 @@
+public class MMBankFactory extends BankFactory {
 
-public class MMBankFactory extends BankFactory{
+	private static int uniqueCAcNo = 10000;
+	private static int uniqueSAcNo = 50000;
 
-	private static int uniqueCAcNo=10000;
-	  private static int uniqueSAcNo=50000;
 	@Override
-	
-	protected CurrentAccount getNewCurrentAccount(int accName,float accBal, float creditLimit ) { 
-		CurrentAccount currentAccount = new CurrentAccount(uniqueCAcNo,accName,accBal,creditLimit);
-		uniqueCAcNo++;
+	protected SavingsAccount getNewSavingsAccount(String accName, float accBal, boolean isSalaried) {
 		
-		
-		return currentAccount;
+		SavingsAccount sa=new MMSavingsAccount(uniqueSAcNo,accName,accBal,isSalaried); 
+		return sa;
 	}
-	
-	
-   @Override
+	@Override
+	protected CurrentAccount getNewCurrentAccount(String accName, float accBal, float creditLimit) {
+		
+		CurrentAccount ca=new MMCurrentAccount(uniqueCAcNo,accName,accBal,creditLimit);
+		return ca; 
+		
+	}
 
-
-
-        
-
-
-
-        protected SavingsAccount getNewSavingsAccount(int accName,float accBal, boolean isSalaried ) { 
-
-
-
-                SavingsAccount SavingsAccount = new SavingsAccount(uniqueSAcNo,accName,accBal,isSalaried);
-			
-
-
-
-uniqueSAcNo++;
-
-
-
-                
-
-
-
-                
-
-
-
-                return savingsAcount;
-
-
-
-        }
-	
-	
 }
