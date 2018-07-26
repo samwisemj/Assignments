@@ -5,7 +5,6 @@
 <fullyQualifiedTypeName name="java.lang.Float"/>
 <fullyQualifiedTypeName name="Complex"/>
 <fullyQualifiedTypeName name="Distance"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="Employee"/>
 <fullyQualifiedTypeName name="Television"/>
 <fullyQualifiedTypeName name="Country"/>
@@ -30,4 +29,15 @@
 <fullyQualifiedTypeName name="pack2.Org"/>
 <fullyQualifiedTypeName name="Emp"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="com.capgemini.calculator.Calculator"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignmenttest.TaxCalculatorTestCases"/>
+<fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignment.TaxCalculator"/>
+<fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignment.exceptions.CountryNotValidException"/>
+<fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignment.exceptions.EmployeeNameInvalidExceptions"/>
+<fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignment.exceptions.TaxNotEligibleException"/>
 </qualifiedTypeNameHistroy>
