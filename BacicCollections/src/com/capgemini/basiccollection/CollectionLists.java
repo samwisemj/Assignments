@@ -73,9 +73,9 @@ public class CollectionLists {
 		// creating CellPhones
 		List<CellPhone> listOfCellPhone = new ArrayList<CellPhone>();
 
-		listOfCellPhone.add(new CellPhone("MI", "A1", "4GBRam,64GB ROM", "Snapdragon 630", 15_000.00));
-		listOfCellPhone.add(new CellPhone("MI", "Redmi", "3GBRam,32GB ROM", "Snapdragon 530", 9_000.00));
-		listOfCellPhone.add(new CellPhone("Apple", "iPhone X", "4GBRam,64GB ROM", "A9 Bionic", 84_000.00));
+		listOfCellPhone.add(new CellPhone("MI", "A1", "4GBRam,64GB ROM", "Android Oreo", 15_000.00));
+		listOfCellPhone.add(new CellPhone("MI", "Redmi", "3GBRam,32GB ROM", "Android Nougat", 9_000.00));
+		listOfCellPhone.add(new CellPhone("Apple", "iPhone X", "4GBRam,64GB ROM", "iOs 10", 84_000.00));
 
 		System.out.println("The Cellphones are ");
 		listOfCellPhone.stream()

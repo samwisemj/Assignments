@@ -40,4 +40,24 @@
 <fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignment.exceptions.CountryNotValidException"/>
 <fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignment.exceptions.EmployeeNameInvalidExceptions"/>
 <fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignment.exceptions.TaxNotEligibleException"/>
+<fullyQualifiedTypeName name="Training"/>
+<fullyQualifiedTypeName name="TrainingTest"/>
+<fullyQualifiedTypeName name="CorporateTraining"/>
+<fullyQualifiedTypeName name="com.capgemini.factorialexception.Factorial"/>
+<fullyQualifiedTypeName name="com.capgemini.factorialexception.exceptions.FactorialException"/>
+<fullyQualifiedTypeName name="com.capgemini.factorialexception.exceptions.InvalidInputException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javafx.scene.transform.Scale"/>
+<fullyQualifiedTypeName name="org.omg.IOP.ServiceContextHelper"/>
+<fullyQualifiedTypeName name="com.capgemini.basiccollection.classes.Laptop"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="com.capgemini.basiccollection.LinkedHashSet"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
 </qualifiedTypeNameHistroy>
