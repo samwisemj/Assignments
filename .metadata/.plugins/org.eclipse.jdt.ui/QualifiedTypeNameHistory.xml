@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.swing.text.AbstractDocument.BranchElement"/>
-<fullyQualifiedTypeName name="java.lang.Comparable"/>
-<fullyQualifiedTypeName name="java.lang.Float"/>
-<fullyQualifiedTypeName name="Complex"/>
-<fullyQualifiedTypeName name="Distance"/>
-<fullyQualifiedTypeName name="Employee"/>
-<fullyQualifiedTypeName name="Television"/>
-<fullyQualifiedTypeName name="Country"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="Triangle"/>
-<fullyQualifiedTypeName name="PaymentGateway"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.lang.AssertionError"/>
 <fullyQualifiedTypeName name="CurrentAccount"/>
@@ -33,8 +19,6 @@
 <fullyQualifiedTypeName name="com.capgemini.calculator.Calculator"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
-<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignmenttest.TaxCalculatorTestCases"/>
 <fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignment.TaxCalculator"/>
 <fullyQualifiedTypeName name="com.capgemini.taxcalculator.junitassignment.exceptions.CountryNotValidException"/>
@@ -54,10 +38,26 @@
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="com.capgemini.basiccollection.LinkedHashSet"/>
 <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
-<fullyQualifiedTypeName name="java.util.TreeSet"/>
 <fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="com.capgemini.savingsaccount.classes.SavingsAccount"/>
+<fullyQualifiedTypeName name="com.capgemini.savingsaccount.classes.BankAccountLists"/>
+<fullyQualifiedTypeName name="com.capgemini.savingsaccount.test.BankAccountsTest"/>
+<fullyQualifiedTypeName name="com.capgemini.movies.classes.MovieDetails"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="com.capgemini.movies.classes.CompareMovieNameComparator"/>
+<fullyQualifiedTypeName name="com.capgemini.movies.classes.CompareLeadActorComparator"/>
+<fullyQualifiedTypeName name="com.capgemini.movies.classes.CompareMovieLeadActressComparator"/>
+<fullyQualifiedTypeName name="com.capgemini.movies.classes.CompareGenreComparator"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

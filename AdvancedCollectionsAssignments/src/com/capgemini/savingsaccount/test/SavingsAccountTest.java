@@ -34,9 +34,9 @@ public class SavingsAccountTest {
 				SavingsAccount account = (SavingsAccount)ois.readObject();
 				System.out.println("Account no " + account.getAccID() + "\nBalance " + account.getAccBal() + "\nName "
 						+ account.getName() + "\nAccount is salaried " + account.isSalarised() + "\n");
-			}while (true); 
+			}while(true); 
 		} catch (Exception e) {
-//			e.printStackTrace();
+			//e.printStackTrace();
 		}
 		finally {
 		ois.close();
@@ -78,9 +78,11 @@ public class SavingsAccountTest {
 		accounts.add(new SavingsAccount(1002, 10000.00, false, "Asish"));
 		accounts.add(new SavingsAccount(1003, 0.00, true, "Suresh"));
 		accounts.add(new SavingsAccount(1004, 150000.00, false, "Jhilmil"));
+		
+		System.out.println("Normal File Reading And Writing\n-------------------------------");
+		arrayListPrint(accounts);
 
-		//arrayListPrint(accounts);
-
+		System.out.println("Object Reading and Writing\n---------------------------------");
 		arrayListFileOp(accounts);
 	}
 
