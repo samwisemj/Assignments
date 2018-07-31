@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{}
-=======
-[[{"location":"C:\\Program Files\\Java\\jre1.8.0_102","type":"JRE","hints":{}},"jre:jre:1.8.0"]]
->>>>>>> b8620ce1f18b0cf538b3643d409da2893bf7eae2
+[[{"location":"C:\\Program Files\\Java\\jre1.8.0_102","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]
