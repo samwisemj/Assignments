@@ -2,18 +2,26 @@
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
 		<item value="331" key="DIALOG_X_ORIGIN"/>
+<<<<<<< HEAD
 		<item value="8" key="DIALOG_Y_ORIGIN"/>
+=======
+		<item value="93" key="DIALOG_Y_ORIGIN"/>
+>>>>>>> b8620ce1f18b0cf538b3643d409da2893bf7eae2
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="669" key="dialogHeight"/>
 		<item value="829" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.ui.preferencePages.Views"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textArray">
+			<item value="theme"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">

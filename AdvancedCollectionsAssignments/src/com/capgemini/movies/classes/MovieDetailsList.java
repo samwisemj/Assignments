@@ -1,23 +1,21 @@
 package com.capgemini.movies.classes;
 
-import java.util.TreeSet;
-
+import java.util.ArrayList;
+import java.util.Collections;
+//Class to insert new movies into a list and adds functionality of varios types
 public class MovieDetailsList {
 
-	TreeSet<MovieDetails> treeSet;
+	ArrayList<MovieDetails> arrayList;
 
-
-	public MovieDetailsList(int constant) {
-		
-		MovieDetails.setConstant(constant);
-		treeSet=new TreeSet<>();
+	public MovieDetailsList() {
+		arrayList = new ArrayList<>();
 	}
 
 	// find movie by name
 	public void findMovieName(String movieName) {
 
 		int flag = 0;
-		for (MovieDetails movie : treeSet) {
+		for (MovieDetails movie : arrayList) {
 
 			if (movie.getMovieName().equalsIgnoreCase(movieName)) {
 				System.out.println("Found\n" + movie);
@@ -32,14 +30,14 @@ public class MovieDetailsList {
 	// remove all the movies from the collections
 	public void removeAllMovies() {
 		System.out.println("Removing all movies from list....This action cant be undone");
-		treeSet.removeAll(treeSet);
+		arrayList.removeAll(arrayList);
 	}
 
 	// find movie by genre
 	public void findMovieGenre(String genre) {
 
 		int flag = 0;
-		for (MovieDetails movie : treeSet) {
+		for (MovieDetails movie : arrayList) {
 
 			if (movie.getGenre().equalsIgnoreCase(genre)) {
 				System.out.println("Found\n" + movie);
@@ -54,26 +52,48 @@ public class MovieDetailsList {
 	// lets assume we will remove the movie by movie name
 	public void remove_movie(String movieName) {
 		MovieDetails removeMovie = null;
-		for (MovieDetails movie : treeSet) {
+		for (MovieDetails movie : arrayList) {
 			if (movie.getMovieName().equalsIgnoreCase(movieName)) {
 				System.out.println("Deleting--\n" + movie);
 				removeMovie = movie;
 			}
 		}
 		if (removeMovie != null)
-			treeSet.remove(removeMovie);
+			arrayList.remove(removeMovie);
 		else
 			System.out.println("Movie Not Present");
 	}
 
 	// add movie
 	public void add_movie(String movieName, String leadActor, String leadActress, String genre) {
-		treeSet.add(new MovieDetails(movieName, leadActor, leadActress, genre));
+		arrayList.add(new MovieDetails(movieName, leadActor, leadActress, genre));
 	}
-	
-	public void display ()
+
+	//displays the list elements
+	public void display() {
+		arrayList.stream().forEach((movie) -> System.out.println(movie));
+	}
+
+//	this function takes in a parameter and sorts the list accordingly
+	public void sort(int x)
 	{
-		treeSet.stream().forEach((movie)->System.out.println(movie));
+		switch (x) {
+		case 1:
+			Collections.sort(arrayList, new MovieNameComparator());
+			break;
+
+		case 2:
+			Collections.sort(arrayList, new LeadActorComparator());
+			break;
+		case 3:
+			Collections.sort(arrayList, new MovieLeadActressComparator());
+			break;
+
+		default:
+			Collections.sort(arrayList, new GenreComparator());
+			break;
+
+		}
 	}
 
 }

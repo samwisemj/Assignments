@@ -1,14 +1,24 @@
 package com.capgemini.savingsaccount.classes;
 
-import java.util.Comparator;
+import java.util.TreeSet;
 
-public class BankAccountLists implements Comparator<SavingsAccount>{
+public class BankAccountLists {
 
-	
-	@Override
-	public int compare(SavingsAccount arg0, SavingsAccount arg1) {
-		return arg0.getAccID()-arg1.getAccID();
+	TreeSet<SavingsAccount> treeSet ;
+	public BankAccountLists()
+	{
+		treeSet=new TreeSet<>();
 	}
 	
+	//add method to insert new accounts
+	public void add(int accID, double accBal, boolean isSalarised, String name)
+	{
+		treeSet.add(new SavingsAccount(accID, accBal, isSalarised, name));
+		
+	}
+	public void display()
+	{
+		treeSet.stream().forEach((account)->System.out.println(account));
+	}
 
 }
