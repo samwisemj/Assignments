@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.swing.text.AbstractDocument.BranchElement"/>
-<fullyQualifiedTypeName name="java.lang.Comparable"/>
-<fullyQualifiedTypeName name="java.lang.Float"/>
-<fullyQualifiedTypeName name="Complex"/>
-<fullyQualifiedTypeName name="Distance"/>
-<fullyQualifiedTypeName name="Employee"/>
-<fullyQualifiedTypeName name="Television"/>
-<fullyQualifiedTypeName name="Country"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="Triangle"/>
-<fullyQualifiedTypeName name="PaymentGateway"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.time.Period"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="java.lang.AssertionError"/>
 <fullyQualifiedTypeName name="CurrentAccount"/>
 <fullyQualifiedTypeName name="BankFactory"/>
@@ -46,18 +31,33 @@
 <fullyQualifiedTypeName name="com.capgemini.factorialexception.Factorial"/>
 <fullyQualifiedTypeName name="com.capgemini.factorialexception.exceptions.FactorialException"/>
 <fullyQualifiedTypeName name="com.capgemini.factorialexception.exceptions.InvalidInputException"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javafx.scene.transform.Scale"/>
 <fullyQualifiedTypeName name="org.omg.IOP.ServiceContextHelper"/>
 <fullyQualifiedTypeName name="com.capgemini.basiccollection.classes.Laptop"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="com.capgemini.basiccollection.LinkedHashSet"/>
 <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
-<fullyQualifiedTypeName name="java.util.TreeSet"/>
 <fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.io.EOFException"/>
+<fullyQualifiedTypeName name="com.capgemini.savingsaccount.test.BankAccountsTest"/>
+<fullyQualifiedTypeName name="com.capgemini.savingsaccount.classes.SavingsAccount"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="com.capgemini.movies.classes.MovieDetails"/>
+<fullyQualifiedTypeName name="com.capgemini.movies.classes.MovieDetailsList"/>
 </qualifiedTypeNameHistroy>

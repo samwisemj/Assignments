@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="3DEnabled" key="selection"/>
+		<item value="arg0" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="arg1"/>
+			<item value="arg0"/>
 			<item value="is3DEnabled"/>
 			<item value="Laptops"/>
 			<item value="Car"/>
@@ -21,10 +23,10 @@
 			<item value="Distance"/>
 			<item value="distance"/>
 			<item value="imaginary"/>
-			<item value="real"/>
-			<item value="complex"/>
 		</list>
 		<list key="replacehistory">
+			<item value="arg0"/>
+			<item value="this"/>
 			<item value="3DEnabled"/>
 			<item value="CellPhone"/>
 			<item value="Television"/>
@@ -38,8 +40,6 @@
 			<item value="Time"/>
 			<item value="time"/>
 			<item value="inches"/>
-			<item value="feet"/>
-			<item value="distance"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
