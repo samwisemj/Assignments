@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.capgemini.fileemployee.Employee"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutput"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.EOFException"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="com.capgemini.rmall.classes.Parked_Car_OwnerList"/>
+<fullyQualifiedTypeName name="com.capgemini.rmall.classes.Parked_CarOwner_Details"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.capgemini.employeeandsavings.classes.MMASavingsAccount"/>
+<fullyQualifiedTypeName name="com.capgemini.employeeandsavings.classes.Employee"/>
+</qualifiedTypeNameHistroy>
