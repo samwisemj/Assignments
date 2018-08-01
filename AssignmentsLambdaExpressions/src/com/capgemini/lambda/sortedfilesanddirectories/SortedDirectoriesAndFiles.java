@@ -2,7 +2,6 @@ package com.capgemini.lambda.sortedfilesanddirectories;
 
 import java.io.File;
 import java.util.Arrays;
-import java.util.List;
 import java.util.TreeSet;
 import java.util.function.Predicate;
 
@@ -15,7 +14,7 @@ public class SortedDirectoriesAndFiles {
 		
 		File listOfFolder[]=file.listFiles();
 		
-		TreeSet<File> treeSet=new TreeSet<File>( (arg0,arg1) -> arg0.compareTo(arg1)) ;
+		TreeSet<File> treeSet=new TreeSet<File>( (arg0,arg1) -> arg0.compareTo(arg1));
 			
 		treeSet.addAll(Arrays.asList(listOfFolder));
 		Predicate<File> predicate=(element)->element.getName().contains(".");

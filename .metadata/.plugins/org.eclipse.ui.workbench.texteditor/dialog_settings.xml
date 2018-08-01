@@ -2,69 +2,23 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-<<<<<<< HEAD
-		<item value="arg0" key="selection"/>
-=======
-		<item value="arrayList" key="selection"/>
->>>>>>> b8620ce1f18b0cf538b3643d409da2893bf7eae2
-		<item value="true" key="casesensitive"/>
+		<item value="ArrayList" key="selection"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-<<<<<<< HEAD
-			<item value="arg1"/>
-			<item value="arg0"/>
-=======
-			<item value="treeSet"/>
 			<item value="TreeSet"/>
->>>>>>> b8620ce1f18b0cf538b3643d409da2893bf7eae2
-			<item value="is3DEnabled"/>
-			<item value="Laptops"/>
-			<item value="Car"/>
-			<item value="participants"/>
-			<item value="triangle"/>
-			<item value="add"/>
-			<item value="Float"/>
-			<item value="float"/>
-			<item value="inches"/>
-			<item value="feet"/>
-			<item value="Distance"/>
-			<item value="distance"/>
-			<item value="imaginary"/>
 		</list>
 		<list key="replacehistory">
-<<<<<<< HEAD
-			<item value="arg0"/>
-			<item value="this"/>
-=======
-			<item value="arrayList"/>
 			<item value="ArrayList"/>
-			<item value="bl"/>
->>>>>>> b8620ce1f18b0cf538b3643d409da2893bf7eae2
-			<item value="3DEnabled"/>
-			<item value="CellPhone"/>
-			<item value="Television"/>
-			<item value="days"/>
-			<item value="countru"/>
-			<item value="sum"/>
-			<item value="Int"/>
-			<item value="int"/>
-			<item value="minutes"/>
-			<item value="hours"/>
-			<item value="Time"/>
-			<item value="time"/>
-<<<<<<< HEAD
-			<item value="inches"/>
-=======
->>>>>>> b8620ce1f18b0cf538b3643d409da2893bf7eae2
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="284" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="390" key="DIALOG_HEIGHT"/>
-		<item value="284" key="DIALOG_X_ORIGIN"/>
-		<item value="346" key="DIALOG_Y_ORIGIN"/>
+		<item value="833" key="DIALOG_X_ORIGIN"/>
+		<item value="230" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

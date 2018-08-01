@@ -36,8 +36,7 @@ public class ParkedCarTest {
 		//adding to an empty slot and checking whether it was entered in an intermediately emptied slot
 		pl.add_new_car(new Parked_CarOwner_Details("Buna", "Bolero", "WB02OP6517", "8697852339", "Behala,Kolkata"));
 		pl.get_parked_location(3);
-		
-//		pl.showAll();
+			//pl.showAll();
 	}
 
 }

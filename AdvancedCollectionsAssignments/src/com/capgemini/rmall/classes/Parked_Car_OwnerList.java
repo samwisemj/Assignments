@@ -50,9 +50,12 @@ public class Parked_Car_OwnerList {
 			if(token>=1 && token <=80)
 				floor=1;
 			else if(token>=81 && token <=160)
-				floor=1;
+				floor=2;
 			else floor=3;
-			section=(token % 4==0)?4:(token%4);			
+			
+			section=(token%80)+1;
+			section=(section >=1 && section <=20  )?1:(section >20 && section <=40)?2:(section >=41 && section <= 60)?3:4;			
+			
 			slot=(token%20==0)?20:token%20;
 			System.out.println("The token "+token+" is present at "+floor+" floor, "+section+" section, "+slot+" slot");
 			System.out.println("Details of the car at" +token+" slot\n"+parkings.get(token));
