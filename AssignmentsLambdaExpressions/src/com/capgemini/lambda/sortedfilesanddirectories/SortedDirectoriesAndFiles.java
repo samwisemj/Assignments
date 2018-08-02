@@ -23,8 +23,7 @@ public class SortedDirectoriesAndFiles {
 		treeSet.stream().filter(predicate.negate()).forEach(System.out::println);
 		//applying actual predicate logic to list the files
 		treeSet.stream().filter(predicate).forEach(System.out::println);
-		
-		
+	
 	}
 
 }
