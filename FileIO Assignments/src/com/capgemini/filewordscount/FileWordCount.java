@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+//Lines to count number of files in a word
 public class FileWordCount {
 
 	public static void main(String[] args) throws IOException {

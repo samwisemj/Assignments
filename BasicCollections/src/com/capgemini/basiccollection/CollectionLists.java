@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.capgemini.basiccollection.classes.*;
-
+//implementing lISTS
 public class CollectionLists {
 
 	public static void printLaptops() {

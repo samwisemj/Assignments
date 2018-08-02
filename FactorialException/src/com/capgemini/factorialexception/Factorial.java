@@ -1,11 +1,12 @@
-//Factorial Class
+
 package com.capgemini.factorialexception;
 
 import com.capgemini.factorialexception.exceptions.FactorialException;
 import com.capgemini.factorialexception.exceptions.InvalidInputException;
-
+//Factorial Class that returns exception is range is out of max integer range
 public class Factorial {
 
+	//returns factorial
 	public int getFactorial(int num)throws Exception
 	{
 		int fact=1;

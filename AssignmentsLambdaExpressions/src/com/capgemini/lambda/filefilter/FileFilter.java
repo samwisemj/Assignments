@@ -8,8 +8,10 @@ public class FileFilter {
 		
 		File file=new File("MyFolder");
 		
+		//using filefilter with lambda expression
 		File listOfFolder[]=file.listFiles((fileElement)->{return fileElement.isDirectory();});
 		
+		//iterating through each file element
 		for(File eachFile: listOfFolder)
 		{
 			System.out.println(eachFile.getName());

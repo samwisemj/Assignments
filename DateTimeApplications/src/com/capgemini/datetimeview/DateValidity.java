@@ -39,7 +39,7 @@ public class DateValidity {
 		
 		c.setTime(date);//sets the static variable in the calandar class
 		
-		c.add(Calendar.DATE,Integer.parseInt(br.readLine()));//
+		c.add(Calendar.DATE,Integer.parseInt(br.readLine()));//adds the date with some integers
 		
 		System.out.println(sdf.format(c.getTime()));
 	}

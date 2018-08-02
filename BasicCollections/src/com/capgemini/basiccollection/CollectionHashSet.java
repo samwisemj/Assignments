@@ -5,6 +5,7 @@ import java.util.Set;
 
 import com.capgemini.basiccollection.classes.*;
 
+//implementing HashSet
 public class CollectionHashSet {
 
 	public static void main(String[] args) {

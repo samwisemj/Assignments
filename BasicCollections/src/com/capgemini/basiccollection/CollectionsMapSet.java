@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-
+//implementinmg HashMap
 public class CollectionsMapSet {
 
 	public static void main(String[] args) {
@@ -17,9 +17,9 @@ public class CollectionsMapSet {
 		map.put("Alfaiz", "Apple");
 		map.put("Mehul", "Pomegranate");
 		
-		System.out.println(map.get("Subhamoy"));
-		System.out.println(map.keySet());
-		System.out.println(map.entrySet());
+		System.out.println(map.get("Subhamoy"));//get value from key
+		System.out.println(map.keySet());//get all keys(keyset)
+		System.out.println(map.entrySet());//get all entries
 		
 		Set<Entry<String,String>> set=map.entrySet();
 		

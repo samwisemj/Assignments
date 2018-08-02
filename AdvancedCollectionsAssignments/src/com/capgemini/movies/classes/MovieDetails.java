@@ -1,5 +1,6 @@
 package com.capgemini.movies.classes;
 
+//movie details class
 public class MovieDetails {
 
 	private String movieName;

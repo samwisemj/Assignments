@@ -1,5 +1,6 @@
 package com.capgemini.employeeandsavings.classes;
 
+//an employee class with getters and setters
 public class Employee {
 
 	private int id;

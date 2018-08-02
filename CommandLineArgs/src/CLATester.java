@@ -1,4 +1,4 @@
-//testing cla
+//testing command line arguments
 public class CLATester {
 	public static void main(String[] args) {
 

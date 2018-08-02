@@ -1,5 +1,6 @@
 package com.capgemini.basiccollection.classes;
 
+//a car class with ctor.., getters and hashCode() and equals()
 public class Car implements Comparable<Car>{
 
 	@Override

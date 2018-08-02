@@ -2,7 +2,7 @@ package com.capgemini.basiccollection;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
-
+//Implementing LinkedHashSet
 public class CollectionLinkedHashSet {
 
 	public static void main(String[] args) {

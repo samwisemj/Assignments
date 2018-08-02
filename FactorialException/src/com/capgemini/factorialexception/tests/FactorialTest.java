@@ -3,7 +3,7 @@ package com.capgemini.factorialexception.tests;
 import com.capgemini.factorialexception.Factorial;
 import com.capgemini.factorialexception.exceptions.FactorialException;
 import com.capgemini.factorialexception.exceptions.InvalidInputException;
-
+//This class instantiates Factorial class and tests it
 public class FactorialTest {
 	public static int getFact(int num)
 	{

@@ -1,5 +1,6 @@
 package com.capgemini.employeeandsavings.classes;
 
+//savings account class with getters
 public class MMASavingsAccount {
 
 	private int accountId;

@@ -1,3 +1,4 @@
+//a class that is used for complex numbers
 public class Complex
 {
 	private float real;

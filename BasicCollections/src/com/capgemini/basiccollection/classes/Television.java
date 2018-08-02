@@ -1,5 +1,5 @@
 package com.capgemini.basiccollection.classes;
-
+//a Television class with getters and ctors..
 public class Television {
 	@Override
 	public int hashCode() {

@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+//Class to count lines in a text file
 public class LineCountApplication {
 
 	public static void main(String[] args) throws IOException {

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 
-
+//Class to write employee objects to a file
 public class EmployeeWriter {
 
 	public static void main(String[] args) throws IOException {

@@ -1,5 +1,5 @@
 package com.capgemini.basiccollection.classes;
-
+//a cellphone class with getters and ctors..
 public class CellPhone {
 
 	private String company;

@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//Class to check whether file exists
 public class FileExistApplication {
 
 	public static void main(String[] args) throws IOException {

@@ -1,5 +1,5 @@
 package com.capgemini.basiccollection.classes;
-
+//a school class with getters and ctors..
 public class School {
 
 	private String name;

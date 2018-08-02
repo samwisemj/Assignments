@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-
+//Java emulation of unix's grep 
 public class JavaGrepApplication {
 
 	public static void main(String[] args) throws IOException {
