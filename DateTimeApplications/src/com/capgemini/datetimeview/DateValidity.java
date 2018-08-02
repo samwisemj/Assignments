@@ -10,15 +10,19 @@ import java.util.Date;
 public class DateValidity {
 
 	public static void main(String[] args) throws IOException {
-		
+		//initial date time format for parsing
 		SimpleDateFormat sdf= new SimpleDateFormat("dd/MM/yyyy"); 
+		
+		//input date
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the date in dd/mm/yyyy");
-		
 		String dateStr=br.readLine();//"01/08/2018";
+		
 		sdf.setLenient(false);
 		
+		//parsing new date object,throws exception if given invalid date
 		Date date=null;
+		
 		try
 		{
 			 date=sdf.parse(dateStr);
@@ -28,11 +32,14 @@ public class DateValidity {
 			e.printStackTrace();
 			System.out.println("Invalid Date");
 		}
-		
+		//using calendar class to add no of days to date
 		System.out.println("Enter the no of days to add");
-		Calendar c=Calendar.getInstance();
-		c.setTime(date);
-		c.add(Calendar.DATE,Integer.parseInt(br.readLine()));
+		
+		Calendar c=Calendar.getInstance();//gets a calander instance
+		
+		c.setTime(date);//sets the static variable in the calandar class
+		
+		c.add(Calendar.DATE,Integer.parseInt(br.readLine()));//
 		
 		System.out.println(sdf.format(c.getTime()));
 	}
