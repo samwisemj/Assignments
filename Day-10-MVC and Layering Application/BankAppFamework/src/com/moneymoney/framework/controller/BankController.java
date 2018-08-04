@@ -3,8 +3,10 @@ package com.moneymoney.framework.controller;
 import java.util.Collection;
 import java.util.Map;
 
+import com.moneymoney.framework.account.dao.BankAccountCollection;
 import com.moneymoney.framework.account.pojo.BankAccount;
 import com.moneymoney.framework.account.pojo.Customer;
+import com.moneymoney.framework.factory.BankFactory;
 
 /**
  * @author Satyen Singh
@@ -12,6 +14,9 @@ import com.moneymoney.framework.account.pojo.Customer;
  * This is a controller which has all abstraction of bank services
  */
 public abstract class BankController {
+	
+	BankAccountCollection bankCollection;
+	BankFactory bankFactory;
 	
 	public abstract void createNewSavingsAccount(Map<String, Object> account);
 
@@ -28,5 +33,7 @@ public abstract class BankController {
 	public abstract Collection<BankAccount> getAllAccounts();
 	
 	public abstract Collection<Customer> getAllCustomers();
+	
+	public abstract BankAccount getAccountById(int id);
 	
 }

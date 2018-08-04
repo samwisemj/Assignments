@@ -6,6 +6,7 @@ package com.moneymoney.framework.account.pojo;
  *
  */
 public abstract class BankAccount {
+	
 	private final int accountNumber;
 	private Customer accountHolder;
 	private double accountBalance;
@@ -55,5 +56,11 @@ public abstract class BankAccount {
 	public String toString() {
 		return "BankAccount [accountNumber=" + accountNumber + ", accountHolderName=" + accountHolder
 				+ ", accountBalance=" + accountBalance + "]";
+	}
+	
+	//withdraw function with default functionality
+	public void withraw(double amount)
+	{
+		accountBalance=(amount<=accountBalance)?(accountBalance-amount):accountBalance;
 	}
 }

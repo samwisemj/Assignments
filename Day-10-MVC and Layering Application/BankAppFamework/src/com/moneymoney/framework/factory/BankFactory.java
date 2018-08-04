@@ -2,6 +2,9 @@ package com.moneymoney.framework.factory;
 
 import java.util.Map;
 
+import com.moneymoney.framework.account.pojo.CurrentAccount;
+import com.moneymoney.framework.account.pojo.SavingsAccount;
+
 /**
  * 
  * @author Satyen Singh
@@ -11,9 +14,9 @@ import java.util.Map;
  */
 public abstract class BankFactory {
 	
-	public abstract void createNewSavingsAccount(Map<String, Object> account);
+	public abstract SavingsAccount createNewSavingsAccount(Map<String, Object> account);
 	
-	public abstract void createNewCurrentAccount(Map<String, Object> account);
+	public abstract CurrentAccount createNewCurrentAccount(Map<String, Object> account);
 	
 	
 }
